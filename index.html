@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Validador de Senha</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>🔒 Criar Senha</h2>
+
+    <input 
+      type="password" 
+      id="senha" 
+      placeholder="Digite sua senha"
+      oninput="validarSenhaTempoReal()"
+    >
+
+    <button onclick="validarSenhaClick()">Validar Senha</button>
+
+    <div id="mensagem" class="feedback"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

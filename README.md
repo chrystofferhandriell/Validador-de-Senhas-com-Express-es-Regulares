@@ -1,0 +1,1 @@
+# Validador-de-Senhas-com-Express-es-Regulares
